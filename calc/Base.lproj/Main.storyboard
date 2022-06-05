@@ -50,6 +50,9 @@
                                                         <color key="backgroundColor" name="gray"/>
                                                     </backgroundConfiguration>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="btAC:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bxs-xy-VFC"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wGL-wA-RLM">
                                                 <rect key="frame" x="103.66666666666669" y="0.0" width="103.33333333333331" height="107.33333333333333"/>
@@ -69,7 +72,7 @@
                                                     </backgroundConfiguration>
                                                 </buttonConfiguration>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OSS-m8-mv7">
+                                            <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OSS-m8-mv7">
                                                 <rect key="frame" x="310.66666666666669" y="0.0" width="103.33333333333331" height="107.33333333333333"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="/">
@@ -77,13 +80,16 @@
                                                         <color key="backgroundColor" name="orange"/>
                                                     </backgroundConfiguration>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="btDivision:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tZd-aM-idM"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="center" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="svN-Cw-qyL">
                                         <rect key="frame" x="0.0" y="107.33333333333331" width="414" height="107"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HlT-jh-jcf">
+                                            <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HlT-jh-jcf">
                                                 <rect key="frame" x="0.0" y="0.0" width="103.66666666666667" height="107"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="7">
@@ -91,8 +97,11 @@
                                                         <color key="backgroundColor" name="darkgray"/>
                                                     </backgroundConfiguration>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="btSeven:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ebG-24-HJc"/>
+                                                </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZEv-D0-zgz">
+                                            <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZEv-D0-zgz">
                                                 <rect key="frame" x="103.66666666666669" y="0.0" width="103.33333333333331" height="107"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="8">
@@ -100,8 +109,11 @@
                                                         <color key="backgroundColor" name="darkgray"/>
                                                     </backgroundConfiguration>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="btEight:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XR3-Is-PdC"/>
+                                                </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YO5-QB-my2">
+                                            <button opaque="NO" tag="10" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YO5-QB-my2">
                                                 <rect key="frame" x="206.99999999999997" y="0.0" width="103.66666666666666" height="107"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="9">
@@ -109,8 +121,11 @@
                                                         <color key="backgroundColor" name="darkgray"/>
                                                     </backgroundConfiguration>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="btNine:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oU0-ga-PWL"/>
+                                                </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S0p-Os-Dac">
+                                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S0p-Os-Dac">
                                                 <rect key="frame" x="310.66666666666669" y="0.0" width="103.33333333333331" height="107"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="X">
@@ -118,13 +133,16 @@
                                                         <color key="backgroundColor" name="orange"/>
                                                     </backgroundConfiguration>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="btMultiplication:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Hst-Gd-9JR"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="center" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="7Hs-re-U9H">
                                         <rect key="frame" x="0.0" y="214.33333333333334" width="414" height="107.33333333333334"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eZN-Xe-uUX">
+                                            <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eZN-Xe-uUX">
                                                 <rect key="frame" x="0.0" y="0.0" width="103.66666666666667" height="107.33333333333333"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="4">
@@ -132,8 +150,11 @@
                                                         <color key="backgroundColor" name="darkgray"/>
                                                     </backgroundConfiguration>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="btFour:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ASN-qY-7y4"/>
+                                                </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bCL-DJ-EQ7">
+                                            <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bCL-DJ-EQ7">
                                                 <rect key="frame" x="103.66666666666669" y="0.0" width="103.33333333333331" height="107.33333333333333"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="5">
@@ -141,8 +162,11 @@
                                                         <color key="backgroundColor" name="darkgray"/>
                                                     </backgroundConfiguration>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="btFive:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AuV-iT-bsL"/>
+                                                </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lhT-cO-Ste">
+                                            <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lhT-cO-Ste">
                                                 <rect key="frame" x="206.99999999999997" y="0.0" width="103.66666666666666" height="107.33333333333333"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="6">
@@ -150,8 +174,11 @@
                                                         <color key="backgroundColor" name="darkgray"/>
                                                     </backgroundConfiguration>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="btSix:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LkY-jF-aQ2"/>
+                                                </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j5u-VO-6N5">
+                                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j5u-VO-6N5">
                                                 <rect key="frame" x="310.66666666666669" y="0.0" width="103.33333333333331" height="107.33333333333333"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="-">
@@ -159,13 +186,16 @@
                                                         <color key="backgroundColor" name="orange"/>
                                                     </backgroundConfiguration>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="btMinus:" destination="BYZ-38-t0r" eventType="touchUpInside" id="R5J-7M-Q4N"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="center" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="nnT-dR-sbB">
                                         <rect key="frame" x="0.0" y="321.66666666666663" width="414" height="107"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eev-04-plh">
+                                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eev-04-plh">
                                                 <rect key="frame" x="0.0" y="0.0" width="103.66666666666667" height="107"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="1">
@@ -173,8 +203,11 @@
                                                         <color key="backgroundColor" name="darkgray"/>
                                                     </backgroundConfiguration>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="btOne:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5QI-ok-8ai"/>
+                                                </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="saK-YC-g8D">
+                                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="saK-YC-g8D">
                                                 <rect key="frame" x="103.66666666666669" y="0.0" width="103.33333333333331" height="107"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="2">
@@ -182,8 +215,11 @@
                                                         <color key="backgroundColor" name="darkgray"/>
                                                     </backgroundConfiguration>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="btTwo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Slj-Qu-h4V"/>
+                                                </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RhF-IE-2qI">
+                                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RhF-IE-2qI">
                                                 <rect key="frame" x="206.99999999999997" y="0.0" width="103.66666666666666" height="107"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="3">
@@ -191,8 +227,11 @@
                                                         <color key="backgroundColor" name="darkgray"/>
                                                     </backgroundConfiguration>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="btThree:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Bsg-Mr-wZh"/>
+                                                </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uHi-nx-FHS">
+                                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uHi-nx-FHS">
                                                 <rect key="frame" x="310.66666666666669" y="0.0" width="103.33333333333331" height="107"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="+">
@@ -200,13 +239,16 @@
                                                         <color key="backgroundColor" name="orange"/>
                                                     </backgroundConfiguration>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="btPlus:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zuD-B5-EbZ"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="center" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="IGC-Qi-4tI">
                                         <rect key="frame" x="0.0" y="428.66666666666663" width="414" height="107.33333333333337"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FZJ-44-3YR">
+                                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FZJ-44-3YR">
                                                 <rect key="frame" x="0.0" y="0.0" width="207" height="107.33333333333333"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="0">
@@ -214,6 +256,9 @@
                                                         <color key="backgroundColor" name="darkgray"/>
                                                     </backgroundConfiguration>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="btZero:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2HX-as-qwo"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DIg-zX-Bb2">
                                                 <rect key="frame" x="206.99999999999997" y="0.0" width="103.66666666666666" height="107.33333333333333"/>
@@ -224,7 +269,7 @@
                                                     </backgroundConfiguration>
                                                 </buttonConfiguration>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9ae-Am-C65">
+                                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9ae-Am-C65">
                                                 <rect key="frame" x="310.66666666666669" y="0.0" width="103.33333333333331" height="107.33333333333333"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="=">
@@ -232,6 +277,9 @@
                                                         <color key="backgroundColor" name="orange"/>
                                                     </backgroundConfiguration>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="btEqual:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cN0-RK-kv5"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>
@@ -255,6 +303,9 @@
                             <constraint firstItem="Ikw-Al-fCv" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="eS7-G6-3Q7"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="resultLabel" destination="u0Y-TY-WFh" id="EKV-GF-w5N"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
