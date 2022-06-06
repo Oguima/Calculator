@@ -16,6 +16,7 @@
 		011C7F4E284D4AE3009ACC17 /* calcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011C7F4D284D4AE3009ACC17 /* calcTests.swift */; };
 		011C7F58284D4AE3009ACC17 /* calcUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011C7F57284D4AE3009ACC17 /* calcUITests.swift */; };
 		011C7F5A284D4AE3009ACC17 /* calcUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011C7F59284D4AE3009ACC17 /* calcUITestsLaunchTests.swift */; };
+		011C7F68284D7B74009ACC17 /* bool_extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011C7F67284D7B74009ACC17 /* bool_extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		011C7F53284D4AE3009ACC17 /* calcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = calcUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		011C7F57284D4AE3009ACC17 /* calcUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calcUITests.swift; sourceTree = "<group>"; };
 		011C7F59284D4AE3009ACC17 /* calcUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calcUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		011C7F67284D7B74009ACC17 /* bool_extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bool_extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		011C7F35284D4AE1009ACC17 /* calc */ = {
 			isa = PBXGroup;
 			children = (
+				011C7F66284D7B35009ACC17 /* Extensions */,
 				011C7F36284D4AE1009ACC17 /* AppDelegate.swift */,
 				011C7F38284D4AE1009ACC17 /* SceneDelegate.swift */,
 				011C7F3A284D4AE1009ACC17 /* ViewController.swift */,
@@ -125,6 +128,14 @@
 				011C7F59284D4AE3009ACC17 /* calcUITestsLaunchTests.swift */,
 			);
 			path = calcUITests;
+			sourceTree = "<group>";
+		};
+		011C7F66284D7B35009ACC17 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				011C7F67284D7B74009ACC17 /* bool_extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +272,7 @@
 				011C7F3B284D4AE1009ACC17 /* ViewController.swift in Sources */,
 				011C7F37284D4AE1009ACC17 /* AppDelegate.swift in Sources */,
 				011C7F39284D4AE1009ACC17 /* SceneDelegate.swift in Sources */,
+				011C7F68284D7B74009ACC17 /* bool_extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
