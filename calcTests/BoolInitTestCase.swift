@@ -8,7 +8,7 @@
 import XCTest
 @testable import calc
 
-class calcBoolExtensionTests: XCTestCase {
+class BoolInitTestCase: XCTestCase {
 
     func test_optionalBool_init_validBits() throws {
         if let boolFromTrueBit = Bool(bit: 1) {
