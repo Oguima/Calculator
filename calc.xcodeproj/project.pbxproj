@@ -19,6 +19,7 @@
 		011C7F68284D7B74009ACC17 /* Bool_extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011C7F67284D7B74009ACC17 /* Bool_extensions.swift */; };
 		011C7F6A284D89A3009ACC17 /* FloatingPoint_Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011C7F69284D89A3009ACC17 /* FloatingPoint_Extensions.swift */; };
 		011C7F6C284D8A5E009ACC17 /* FloatingPointTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011C7F6B284D8A5E009ACC17 /* FloatingPointTestCase.swift */; };
+		011C7F6E284D8D6D009ACC17 /* SequenceTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011C7F6D284D8D6D009ACC17 /* SequenceTestCase.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		011C7F67284D7B74009ACC17 /* Bool_extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bool_extensions.swift; sourceTree = "<group>"; };
 		011C7F69284D89A3009ACC17 /* FloatingPoint_Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingPoint_Extensions.swift; sourceTree = "<group>"; };
 		011C7F6B284D8A5E009ACC17 /* FloatingPointTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingPointTestCase.swift; sourceTree = "<group>"; };
+		011C7F6D284D8D6D009ACC17 /* SequenceTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SequenceTestCase.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +124,7 @@
 			children = (
 				011C7F4D284D4AE3009ACC17 /* BoolInitTestCase.swift */,
 				011C7F6B284D8A5E009ACC17 /* FloatingPointTestCase.swift */,
+				011C7F6D284D8D6D009ACC17 /* SequenceTestCase.swift */,
 			);
 			path = calcTests;
 			sourceTree = "<group>";
@@ -289,6 +292,7 @@
 			files = (
 				011C7F6C284D8A5E009ACC17 /* FloatingPointTestCase.swift in Sources */,
 				011C7F4E284D4AE3009ACC17 /* BoolInitTestCase.swift in Sources */,
+				011C7F6E284D8D6D009ACC17 /* SequenceTestCase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
