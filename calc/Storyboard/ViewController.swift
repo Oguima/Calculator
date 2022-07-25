@@ -10,7 +10,7 @@ import UIKit
 class ViewController: UIViewController {
 
 
-    @IBOutlet weak var resultLabel: UILabel!
+    /*@IBOutlet weak var resultLabel: UILabel!
 
     @IBAction func btAC(_ sender: UIButton) {
         clearResult()
@@ -82,7 +82,7 @@ class ViewController: UIViewController {
 
     @IBAction func btEqual(_ sender: UIButton) {
         operationPressed(sender)
-    }
+    }*/
 
     var firstNumber = 0
     var resultNumber = 0
@@ -92,7 +92,7 @@ class ViewController: UIViewController {
         case add, subtract, multiply, divide
     }
 
-    func clearResult() {
+    /*func clearResult() {
         resultLabel.text = "0"
         currentOperations = nil
         firstNumber = 0
@@ -163,10 +163,11 @@ class ViewController: UIViewController {
         } else if tag == 5 {
             currentOperations = .divide
         }
-    }
+    }*/
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.view.backgroundColor = UIColor.red
     }
 
     override var preferredStatusBarStyle: UIStatusBarStyle {
