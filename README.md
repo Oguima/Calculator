@@ -6,8 +6,8 @@ Iniciando com Storyboard, com base no Main.Storyboard
 ### File / new Project - Storyboard.
 
 ## Estudos: 
-- StoryBoard - Iniciando.
-- ViewCode
+- StoryBoard: feature/storyboard
+- ViewCode: feature/viewcode
 - SwiftUI
 
 
