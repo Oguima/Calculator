@@ -330,8 +330,8 @@ final class CalculatorView: UIView, CodeView {
         
         resultLabel.leadingAnchor.constraint(equalTo: self.topView.leadingAnchor).isActive = true
         resultLabel.trailingAnchor.constraint(equalTo: self.topView.trailingAnchor, constant: -5).isActive = true
-        resultLabel.bottomAnchor.constraint(equalTo: self.topView.bottomAnchor, constant: -20).isActive = true
-        resultLabel.heightAnchor.constraint(equalTo: self.topView.heightAnchor, multiplier: 1/2, constant: 0.0).isActive = true
+        resultLabel.bottomAnchor.constraint(equalTo: self.topView.bottomAnchor, constant: -40).isActive = true
+        resultLabel.heightAnchor.constraint(equalTo: self.topView.heightAnchor, constant: 20.0).isActive = true
     }
     
     func setupAdditionalConfiguration() {
